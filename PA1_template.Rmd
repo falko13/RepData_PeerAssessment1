@@ -83,6 +83,10 @@ g + geom_line(size = 1) +
         labs(y = "Number of steps, average")
 ```
 
+The 5-minutes interval that contains maximum number of steps is:  
+**max steps 5-interval** = *`r df_st2[df_st2[,2] == max(df_st2[,2]),"interval"][[1]]`*
+
+
 ###Step 3, Imputing missing values
 
 For step 3 we repeat step 1 analysis, but this time missing steps(NA) will be replaced with someting more appropriate.

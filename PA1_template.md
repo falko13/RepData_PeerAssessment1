@@ -85,6 +85,10 @@ g + geom_line(size = 1) +
 
 ![](PA1_template_files/figure-html/unnamed-chunk-4-1.png) 
 
+The 5-minutes interval that contains maximum number of steps is:  
+**max steps 5-interval** = *835*
+
+
 ###Step 3, Imputing missing values
 
 For step 3 we repeat step 1 analysis, but this time missing steps(NA) will be replaced with someting more appropriate.
